@@ -4,7 +4,8 @@
 #
 #-------------------------------------------------
 
-QT       += core gui network webkit
+QT       += core gui webkit
+CONFIG += release
 
 TARGET = athina-downloader
 TEMPLATE = app
